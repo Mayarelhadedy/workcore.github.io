@@ -1,12 +1,25 @@
 body {
   background-color: black;
+  font-family: "Kumbh Sans", sans-serif;
 }
 .navbar {
   border-bottom: grey;
 }
 .c-item {
-  height: 400px;
+  height: 800px;
 }
 .c-img {
-  height: 600px;
+}
+.navbar {
+}
+.btn {
+  padding: 10px 36px;
+  font-size: 16px;
+  font-weight: 700;
+  color: aliceblue;
+  font-family: "Kumbh Sans", sans-serif;
+}
+.bi {
+  width: 15px;
+  height: 15px;
 }
