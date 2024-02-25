@@ -1,0 +1,12 @@
+body {
+  background-color: black;
+}
+.navbar {
+  border-bottom: grey;
+}
+.c-item {
+  height: 400px;
+}
+.c-img {
+  height: 600px;
+}
