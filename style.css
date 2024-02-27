@@ -1,25 +1,87 @@
 body {
   background-color: black;
+
   font-family: "Kumbh Sans", sans-serif;
 }
-.navbar {
-  border-bottom: grey;
-}
+
 .c-item {
   height: 800px;
 }
-.c-img {
-}
-.navbar {
-}
-.btn {
-  padding: 10px 36px;
-  font-size: 16px;
-  font-weight: 700;
-  color: aliceblue;
-  font-family: "Kumbh Sans", sans-serif;
+
+.item img {
+  width: 100%;
 }
 .bi {
   width: 15px;
   height: 15px;
+}
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+.carousel-indicators .active {
+  background-color: #0ead69;
+}
+.carousel-item:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+.btn1 {
+  flex-basis: 100%;
+}
+.carousel-caption {
+  top: 60%;
+  transform: translateY(-50%);
+}
+.navbar-brand {
+  font-weight: bold;
+}
+.work {
+  color: #0ead69;
+}
+.allbutton {
+  font-size: 12px;
+  padding: 10px 30px;
+  color: white;
+}
+.button2 {
+  background-color: #0ead69;
+}
+.iconarrow {
+  padding-left: 10px;
+}
+.search_icon {
+  color: #0ead69;
+}
+.buttonread {
+  padding: 8px 20px;
+  background-color: #73727552;
+  border: 1px solid rgb(185, 182, 182);
+  color: azure;
+}
+.FINANCE {
+  font-size: 9px;
+  color: rgb(146, 145, 145);
+}
+h1 {
+  font-weight: bold;
+}
+.iconarrowf {
+  background-color: rgb(122, 122, 122);
+}
+.prev {
+  background-color: aquamarine;
+}
+.navbar {
+  border-bottom: 1.3px solid #f0f0f02f;
+  color: white;
+}
+li {
+  color: white;
 }
